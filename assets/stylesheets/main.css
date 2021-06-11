@@ -432,3 +432,40 @@ p a {
   padding: 22px 0;
   text-align: center;
 }
+
+/*
+  ========================================
+  Расписание
+  ========================================
+*/
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+table {
+  margin-bottom: 44px;
+  width: 100%;
+}
+
+thead {
+  line-height: 44px;
+}
+
+thead th {
+  color: #648880;
+  font-size: 24px;
+}
+
+td {
+  width: 40%;
+}
+
+tbody th {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 22px;
+  text-transform: uppercase;
+}
