@@ -418,12 +418,21 @@ p a {
 .teaser a:hover h3 {
   color: #a9b2b9;
 }
+.teaser img {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%;
+}
 
 /*
   ========================================
   Спикеры
   ========================================
 */
+.speaker {
+  margin-bottom: 44px;
+}
 
 .speaker-info {
   border: 1px solid #dfe2e5;
@@ -431,6 +440,13 @@ p a {
   margin-top: 88px;
   padding: 22px 0;
   text-align: center;
+}
+
+.speaker-info img {
+  border-radius: 50%;
+  height: 130px;
+  margin: -66px 0 22px;
+  vertical-align: top;
 }
 
 /*
@@ -468,4 +484,84 @@ tbody th {
   font-weight: 400;
   padding-top: 22px;
   text-transform: uppercase;
+}
+
+/*
+  ========================================
+  Регистрация
+  ========================================
+*/
+
+.why-attend {
+  list-style: square;
+  margin: 0 0 22px 30px;
+}
+
+.register-group label {
+  color: #648880;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: threedface;
+  border-image: initial;
+}
+
+.register-group input,
+.register-group textarea {
+  width: 100%;
+}
+.register-group input,
+.register-group select,
+.register-group textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px;
+  padding: 5px 8px;
+}
+
+.register-group select {
+  height: 34px;
+  width: 60px;
+}
+
+.btn-default {
+  border: 0;
+  background: #648880;
+  padding: 11px 30px;
+  font-size: 14px;
+}
+
+/*
+  ========================================
+  место проведения
+  ========================================
+*/
+
+.venue-theatre {
+  margin-bottom: 66px;
+}
+
+.venue-map {
+  height: 264px;
+}
+
+.venue-hotel {
+  margin-bottom: 22px;
+}
+.venue-map {
+  height: 264px;
 }
